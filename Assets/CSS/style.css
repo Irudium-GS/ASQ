@@ -350,9 +350,7 @@
 
 /* About Us Page >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
-.about-container{
-  display: flex;
-  justify-content: space-between;
+.about-container, .CCTV{
   padding: 2rem 20rem;
 }
 
@@ -367,7 +365,7 @@
   padding: 1rem 0;
 }
 
-.about-container .about-content p{
+.about-container .about-content p, .CCTV-content{
   font-size: 1.2rem;
   color: #003366;
   line-height: 2;
@@ -587,4 +585,86 @@
 .DM-container-2 .DM-image-grid img:hover {
   transform: scale(1.05);
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Create Your Website >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.web-heading{
+  background: #09273F;
+  padding: 2rem 20rem;
+}
+.web-heading h2, .web-heading-content h2{
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: white;
+  padding: 1rem 0;
+}
+.web-heading-content {
+  padding: 1.5rem 20rem;
+  background: #09273F;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.web-heading-content p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.web-heading-content a {
+  text-decoration: none;
+  color: #003366;
+  background: white;
+  padding: 0.6rem 1.2rem; 
+  border-radius: 5px;
+  font-size: 0.9rem; 
+  font-weight: bold;
+  display: inline-block;
+  transition: all 0.3s ease;
+  white-space: nowrap; 
+}
+
+.web-heading-content a:hover {
+  background: #005fa3;
+  color: white;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.E-Commerce{
+  padding: 2rem 20rem;
+  background: white;
+}
+
+.E-Commerce-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #003366;
+  gap: 2rem;
+}
+
+.E-Commerce-content img{
+  width: 500px;
+}
+
+.E-Commerce-content h2{
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #003366;
+  padding: 1rem 0;
+}
+
+.E-Commerce-content ul{
+  list-style: disc;
+  padding: 0 2.5rem;
+}
+
+.E-Commerce-content ul li{
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  line-height: 2;
 }
