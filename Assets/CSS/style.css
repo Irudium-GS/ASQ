@@ -523,11 +523,12 @@
 
 .DM-container-1{
   padding: 2rem 20rem;
+  background: #09273F;
 }
 
 .DM-container-1 p{
   font-size: 1.2rem;
-  color: #003366;
+  color: white;
   line-height: 2;
   text-align: justify;
   padding-bottom: 1rem;
