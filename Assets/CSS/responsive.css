@@ -1,0 +1,137 @@
+/* General Media Queries */
+
+/* Large Desktops (1200px and above) */
+@media (min-width: 1200px) {
+    body {
+      font-size: 1rem;
+    }
+  
+    .navbar {
+      padding: 1rem 15rem;
+    }
+  
+    .hero-content_All {
+      margin: auto 15rem;
+    }
+  
+    .about-container, .CCTV, .Cabling, .DM-container, .Maintenance {
+      padding: 2rem 15rem;
+    }
+  }
+  
+  /* Laptops (992px to 1199px) */
+  @media (max-width: 1199px) and (min-width: 992px) {
+    .navbar {
+      padding: 1rem 10rem;
+    }
+  
+    .hero-content_All {
+      margin: auto 10rem;
+    }
+  
+    .about-container, .CCTV, .Cabling, .DM-container, .Maintenance {
+      padding: 2rem 10rem;
+    }
+  
+    .services .service-cards {
+      flex-direction: row;
+      gap: 1rem;
+    }
+  }
+  
+  /* Tablets (768px to 991px) */
+  @media (max-width: 991px) and (min-width: 768px) {
+    .navbar {
+      padding: 1rem 5rem;
+    }
+  
+    .hero-content_All {
+      margin: auto 5rem;
+    }
+  
+    .about-container, .CCTV, .Cabling, .DM-container, .Maintenance {
+      padding: 2rem 5rem;
+    }
+  
+    .services .service-cards {
+      flex-direction: column;
+      gap: 2rem;
+    }
+  
+    .DM-container-2 .DM-image-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  /* Mobile Phones (576px to 767px) */
+  @media (max-width: 767px) and (min-width: 576px) {
+    .navbar {
+      padding: 1rem 2rem;
+      flex-direction: column;
+    }
+  
+    .hero-content_All {
+      margin: auto 2rem;
+    }
+  
+    .about-container, .CCTV, .Cabling, .DM-container, .Maintenance {
+      padding: 2rem;
+    }
+  
+    .services .service-cards {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  
+    .DM-container-2 .DM-image-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .web-heading-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .web-heading-content a {
+      margin-top: 1rem;
+    }
+  }
+  
+  /* Small Mobile Phones (Below 576px) */
+  @media (max-width: 575px) {
+    .navbar {
+      padding: 1rem;
+      flex-direction: column;
+    }
+  
+    .hero-content_All {
+      margin: auto 1rem;
+    }
+  
+    .about-container, .CCTV, .Cabling, .DM-container, .Maintenance {
+      padding: 1rem;
+    }
+  
+    .services .service-cards {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  
+    .DM-container-2 .DM-image-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .web-heading-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .web-heading-content a {
+      margin-top: 1rem;
+    }
+  
+    .footer-container {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
