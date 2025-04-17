@@ -63,9 +63,69 @@
         </div>
     </section>
 
+    <section class="Cabling">
+      <div class="Cabling-content">
+        <h2>Comprehensive Network Cabling Solutions</h2>
+        <p>Businesses aiming for growth require robust and adaptable voice and data networks. 
+          These networks must be scalable and flexible to accommodate future expansion. 
+          Ali-Saleh Al-Qahthani specializes in providing top-tier network cabling solutions for companies of all sizes, including enterprises with extensive networks spanning hundreds or thousands of locations. 
+          Our expertise ensures that we adhere to the latest standards, best practices, and technological advancements in cabling and communications. 
+          This commitment guarantees reliable and efficient results for our clients.
+        </p>
+
+        <h2>Reliable Fiber Optic Cabling Solutions for Modern Communications</h2>
+        <p>For superior communication quality in everything from voice and video to high-speed internet access, fiber optic cabling is the go-to solution. Installing or upgrading a fiber optic system requires specialized expertise to ensure a communications infrastructure that is both scalable and reliable. 
+          Ali-Saleh Al-Qahthani has delivered fiber optic cabling services to hundreds of companies across various industries, addressing their current needs while preparing them for future opportunities. 
+          Our team receives ongoing training to stay updated on the latest fiber optic technologies and the evolving communication needs of different industries and applications.
+        </p>
+        <p>If you need to provide wireless coverage on your premises, troubleshoot existing wireless networks, or need guidance on whether wireless is the right choice for you and how to address security concerns, we are here to help with all your wireless needs.
+        </p>
+      </div>
+    </section>
+
+    <section class="Cable-Dropdown">
+      <h2>Types of Cable Routing</h2>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Overhead Tray
+          <i class="fas fa-chevron-down dropdown-icon"></i>
+        </button>
+        <div class="dropdown-content">
+          <p>Cables are placed beneath raised floors using trays specifically designed for this purpose. This approach is often used in data centers and offices, keeping cables out of sight while providing easy access for adjustments and repairs.</p>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Below False Floor Tray
+          <i class="fas fa-chevron-down dropdown-icon"></i>
+        </button>
+        <div class="dropdown-content">
+          <p>Cables are placed beneath raised floors using trays specifically designed for this purpose. This approach is often used in data centers and offices, keeping cables out of sight while providing easy access for adjustments and repairs.</p>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Trenches
+          <i class="fas fa-chevron-down dropdown-icon"></i>
+        </button>
+        <div class="dropdown-content">
+          <p>Cables are routed through trenches that are cut into the floor. This method is typically used in industrial environments or large facilities, protecting cables from physical damage while maintaining a clean appearance.</p>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Raceways
+          <i class="fas fa-chevron-down dropdown-icon"></i>
+        </button>
+        <div class="dropdown-content">
+          <p>Cables are enclosed in raceways, which are mounted to walls, floors, or ceilings. Raceways provide a protective, organized pathway for cables and can be easily accessed for upgrades or maintenance, making them suitable for a variety of settings.</p>
+        </div>
+      </div>
+    </section>
+
     <div class="btns" style="padding: 1.5rem 20rem; background: #09273F;">
-        <a href="" class="btn">Contact Us</a>
-        <a href="" class="btn">Chat with Us</a>
+        <a href="https://www.google.com/url?q=https%3A%2F%2Fwa.me%2F%2B966561346255&sa=D&sntz=1&usg=AOvVaw2xrh7ETyyJAWJAf2dE-VKN" class="btn">Chat Now</a>
+        <a href="./NetworkConsulting.html" class="btn">Network Consulting</a>
     </div>
 
       <footer class="footer">
@@ -96,5 +156,24 @@
       <!-- <footer class="footer">
         <p>&copy; 2025 ASQ. All rights reserved.</p>
       </footer> -->
+
+      <script>
+        // Select all dropdown buttons
+        document.querySelectorAll('.Cable-Dropdown .dropdown .dropbtn').forEach(button => {
+          button.addEventListener('click', () => {
+            const dropdown = button.parentElement;
+      
+            // Toggle the 'active' class on the clicked dropdown
+            dropdown.classList.toggle('active');
+      
+            // Close other dropdowns
+            document.querySelectorAll('.Cable-Dropdown .dropdown').forEach(otherDropdown => {
+              if (otherDropdown !== dropdown) {
+                otherDropdown.classList.remove('active');
+              }
+            });
+          });
+        });
+      </script>
 </body>
 </html>

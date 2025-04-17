@@ -63,9 +63,75 @@
         </div>
     </section>
 
+    <section class="Cabling">
+      <div class="Cabling-content">
+      
+        <p>
+          We provide a single-source solution, supporting a wide range of networking devices including routers, switches, and firewalls from leading manufacturers. Our network consulting services start with you—your needs, objectives, and budget.
+        </p>
+        <p>
+          Ali-Saleh Al-Qahthani's experts take the time to understand your goals through a thorough needs assessment. 
+          During our site visits, we collaborate closely with your onsite staff, ensuring open communication and courteous interactions. 
+          We then design a plan that aligns with your objectives and fits within your budget, delivering tailored solutions that meet your specific requirements.
+        </p>
+
+        <h2>IT Support for Businesses by Ali-Saleh Al-Qahthani</h2>
+        <p>
+          Experience the benefits of regular IT checks for your business or subscribe to a support contract. With our support specialists on standby, Ali-Saleh Al-Qahthani ensures prompt troubleshooting for all your IT and connectivity issues, keeping your operations running smoothly.
+        </p>
+
+        <h2>IT CheckIT</h2>
+        <p>
+          Ali-Saleh Al-Qahthani offers scheduled IT maintenance checks, so you don't have to wait for problems to arise before seeking help. Our IT support specialists conduct comprehensive system checks, either remotely via web support or on-site, ensuring your systems are always in optimal condition.
+        </p>
+        
+      </div>
+    </section>
+
+    <section class="Cable-Dropdown">
+      <h2>Capabilities</h2>
+      <p>Our Network Consulting and Integration Services provide comprehensive network life cycle management for carrier networks, including: </p>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Network Planning
+          <i class="fas fa-chevron-down dropdown-icon"></i>
+        </button>
+        <div class="dropdown-content">
+          <p>We assist in achieving your business goals by offering business case modeling, thorough network design, technology evaluation, and the creation of a detailed network and future roadmap.</p>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Network Design
+          <i class="fas fa-chevron-down dropdown-icon"></i>
+        </button>
+        <div class="dropdown-content">
+          <p>We conduct meticulous system design, assess capacity, and develop comprehensive planning strategies to ensure optimal performance and scalability.</p>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Network Implementation
+          <i class="fas fa-chevron-down dropdown-icon"></i>
+        </button>
+        <div class="dropdown-content">
+          <p>We aid in network deployment by configuring networks, optimizing parameter settings, and thoroughly testing standalone network elements. Our expertise extends to integrating network elements across multiple systems, culminating in network acceptance and comprehensive end-to-end testing to ensure seamless functionality.</p>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Network Operation
+          <i class="fas fa-chevron-down dropdown-icon"></i>
+        </button>
+        <div class="dropdown-content">
+          <p>We provide Level 1, Level 2, and Tier 3 support, offering both onsite and remote personnel to address your network needs. Our network consulting services prioritize your requirements, objectives, and budget. We conduct thorough needs assessments to understand your goals, designing customized plans that align with your objectives and financial constraints.</p>
+        </div>
+      </div>
+    </section>
+
     <div class="btns" style="padding: 1.5rem 20rem; background: #09273F;">
-        <a href="" class="btn">Contact Us</a>
-        <a href="" class="btn">Chat with Us</a>
+        <a href="./StructureCabling.html" class="btn">Structure Cabling</a>
+        <a href="./CCTV.html" class="btn">CCTV / WIFI / ACCESS</a>
     </div>
 
       <footer class="footer">
@@ -96,5 +162,24 @@
       <!-- <footer class="footer">
         <p>&copy; 2025 ASQ. All rights reserved.</p>
       </footer> -->
+
+      <script>
+        // Select all dropdown buttons
+        document.querySelectorAll('.Cable-Dropdown .dropdown .dropbtn').forEach(button => {
+          button.addEventListener('click', () => {
+            const dropdown = button.parentElement;
+      
+            // Toggle the 'active' class on the clicked dropdown
+            dropdown.classList.toggle('active');
+      
+            // Close other dropdowns
+            document.querySelectorAll('.Cable-Dropdown .dropdown').forEach(otherDropdown => {
+              if (otherDropdown !== dropdown) {
+                otherDropdown.classList.remove('active');
+              }
+            });
+          });
+        });
+      </script>
 </body>
 </html>

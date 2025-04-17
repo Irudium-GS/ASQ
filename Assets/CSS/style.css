@@ -668,3 +668,143 @@
   font-size: 1.2rem;
   line-height: 2;
 }
+
+/* Structured Cabling >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.Cabling{
+  padding: 2rem 20rem;
+  background: white;
+}
+.Cabling-content h2{
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #003366;
+  padding: 1rem 0;
+}
+.Cabling-content p{
+  font-size: 1.2rem;
+  color: #003366;
+  line-height: 2;
+  text-align: justify;
+  padding-bottom: 1rem;
+}
+
+.Cable-Dropdown {
+  padding: 2rem 20rem;
+  background: #09273F;
+  color: white;
+}
+
+.Cable-Dropdown h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: white;
+  padding-bottom: 1rem;
+}
+
+.Cable-Dropdown .dropdown {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.Cable-Dropdown .dropdown .dropbtn {
+  background: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Cable-Dropdown .dropdown .dropdown-icon {
+  font-size: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.Cable-Dropdown .dropdown-content {
+  display: none;
+  padding: 1rem 0;
+  color: white;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.Cable-Dropdown .dropdown.active .dropdown-content {
+  display: block;
+}
+
+.Cable-Dropdown .dropdown.active .dropdown-icon {
+  transform: rotate(180deg);
+}
+
+/* Maintenance Services >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.Maintenance{
+  padding: 2rem 20rem;
+  background: #09273f;
+}
+.Maintenance h2{
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: white;
+  padding: 1rem 0;
+}
+.Maintenance p{
+  font-size: 1.2rem;
+  color: white;
+  line-height: 2;
+  text-align: justify;
+  padding-bottom: 1rem;
+}
+
+.Maintenance-service{
+  padding: 2rem 20rem;
+  background: white;
+}
+.maintenance-content-2{
+  background: #09273f;
+  padding: 2rem 20rem;
+}
+.Maintenance-service h2{
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #003366;
+  padding: 1rem 0;
+}
+.Maintenance-service .maintenance-content{
+  width: 100%;
+}
+.Maintenance-service .maintenance-content p{
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 2;
+  text-align: justify;
+  padding-bottom: 1rem;
+}
+.Maintenance-service .maintenance-content ul, .maintenance-content-2 ul{
+  list-style: disc;
+  padding: 0 2.5rem;
+}
+.Maintenance-service .maintenance-content ul li, .maintenance-content-2 ul li{
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.maintenance-content-2 h2{
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: white;
+  padding: 1rem 0;
+}
+.maintenance-content-2 ul li{
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  line-height: 2;
+  color: white;
+}
